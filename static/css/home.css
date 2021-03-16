@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body, html, *{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(#167AFF, #00C2CB);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+.courses{
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  z-index: 15;
+  top: 40%;
+  left: 50%;
+  margin: -10% 0 0 -40%;
+  background: rgba(215, 217, 223, 0.911);
+}
+
+.course{
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 35%;
+  height: 250px;
+  background-color:rgba(233, 233, 240, 0.657);
+}
+
+.courses .spacing{
+  width: 10%;
+  display: inline-block;
+}
+
+.course .courseHeader{
+  width: 100%;
+  height: 50px;
+  font-size: 28px;
+  background-position: center;
+}
